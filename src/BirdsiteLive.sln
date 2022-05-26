@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.29911.84
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32421.90
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BirdsiteLive", "BirdsiteLive\BirdsiteLive.csproj", "{4059D92B-A86B-4765-A905-EFC2D7259C34}"
 EndProject
@@ -49,7 +49,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BirdsiteLive.Common.Tests",
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BSLManager", "BSLManager\BSLManager.csproj", "{4A84D351-E91B-4E58-8E20-211F0F4991D7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BSLManager.Tests", "Tests\BSLManager.Tests\BSLManager.Tests.csproj", "{D4457271-620E-465A-B08E-7FC63C99A2F6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BSLManager.Tests", "Tests\BSLManager.Tests\BSLManager.Tests.csproj", "{D4457271-620E-465A-B08E-7FC63C99A2F6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BirdsiteLive.Twitter.Tests", "Tests\BirdsiteLive.Twitter.Tests\BirdsiteLive.Twitter.Tests.csproj", "{9BBD8346-1223-4986-83FC-7BB96CFF4D3B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -137,6 +139,10 @@ Global
 		{D4457271-620E-465A-B08E-7FC63C99A2F6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D4457271-620E-465A-B08E-7FC63C99A2F6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D4457271-620E-465A-B08E-7FC63C99A2F6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9BBD8346-1223-4986-83FC-7BB96CFF4D3B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9BBD8346-1223-4986-83FC-7BB96CFF4D3B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9BBD8346-1223-4986-83FC-7BB96CFF4D3B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9BBD8346-1223-4986-83FC-7BB96CFF4D3B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -160,6 +166,7 @@ Global
 		{0A311BF3-4FD9-4303-940A-A3778890561C} = {A32D3458-09D0-4E0A-BA4B-8C411B816B94}
 		{C69F7582-6050-44DC-BAAB-7C8F0BDA525C} = {A32D3458-09D0-4E0A-BA4B-8C411B816B94}
 		{D4457271-620E-465A-B08E-7FC63C99A2F6} = {A32D3458-09D0-4E0A-BA4B-8C411B816B94}
+		{9BBD8346-1223-4986-83FC-7BB96CFF4D3B} = {A32D3458-09D0-4E0A-BA4B-8C411B816B94}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {69E8DCAD-4C37-4010-858F-5F94E6FBABCE}
